@@ -1,0 +1,19 @@
+<x-admin-layout>
+    <x-slot name="header">
+        <h2 class="h4 font-weight-bold">
+            {{ __('Student') }}
+        </h2>
+    </x-slot>
+
+    <div class="card card-primary card-outline">
+        <div class="card-header">
+            <h3 class="card-title">Student Edit</h3>
+            <div class="card-tools float-right">
+                <a href="{{ route('admin.stu.new-register') }}" class="btn btn-sm btn-primary">Back</a>
+            </div>
+        </div>
+        <div class="card-body">
+            <livewire:admin.student.new-register-edit-component :student="$student" />
+        </div>
+    </div>
+</x-admin-layout>

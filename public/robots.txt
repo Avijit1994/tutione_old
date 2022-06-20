@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap:https://thetuitione.com/sitemap.xml
